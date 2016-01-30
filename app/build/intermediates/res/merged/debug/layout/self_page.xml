@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/self_detail_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_self_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="5dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_self_page_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/textMarginLeft"
+            android:text="昵称"
+            android:textColor="@color/textColorBlack"
+            android:textSize="@dimen/textSizeInMainPages" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@color/self_page_title_green_color"
+            android:padding="10dp"
+            android:text="账号"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/textColorBlack"
+            android:id="@+id/tv_self_page_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@color/self_page_title_green_color"
+            android:padding="10dp"
+            android:text="昵称"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/textColorBlack"
+            android:id="@+id/tv_self_page_nickname_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@color/self_page_title_green_color"
+            android:padding="10dp"
+            android:text="邮箱"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_self_page_email"
+            android:textSize="16sp"
+            android:textColor="@color/textColorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_self_page_edit_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_frame"
+        android:text="修改账号信息" />
+
+    <Button
+        android:id="@+id/btn_self_page_log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/btn_log_out_red"
+        android:text="退出当前账号"
+        android:textColor="@color/white" />
+
+</LinearLayout>

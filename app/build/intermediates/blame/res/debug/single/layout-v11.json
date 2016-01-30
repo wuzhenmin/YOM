@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\android_workplace\\YOM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "F:\\android_workplace\\YOM\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout-v11\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\android_workplace\\customWeChat-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "F:\\android_workplace\\customWeChat-master2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout-v11\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\workplace\\customWeChat-master2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\abc_screen_content_include.xml",
+        "source": "G:\\workplace\\customWeChat-master2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\layout-v11\\abc_screen_content_include.xml"
+    }
+]

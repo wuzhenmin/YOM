@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@color/self_page_title_green_color"
+        android:text="添加好友" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_add_friend_dialog_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="输入查找的昵称或账号"
+        android:padding="5dp"
+        android:textSize="18sp" />
+    <Button
+        android:textSize="18sp"
+        android:id="@+id/btn_do_search_friend"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="@color/self_page_title_green_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:visibility="gone"
+        android:id="@+id/lv_search_friend_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:dividerHeight="2dp"
+        android:background="@color/white"
+        android:footerDividersEnabled="true">
+
+    </ListView>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:id="@+id/tv_search_not_result"
+        android:text="没有相关结果"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/textColorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

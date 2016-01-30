@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_contact_page_new_friend"
+        android:text="新的朋友"
+        android:textSize="@dimen/textSizeInMainPages"
+        android:background="@drawable/btn_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:text="联系人"
+        android:textSize="@dimen/textSizeInMainPages"
+        android:textColor="@color/white"
+        android:background="@color/self_page_title_green_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv_not_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="还没有联系人"
+        android:textColor="@color/textColorBlack"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/lv_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="2dp"
+        android:divider="@null">
+
+
+    </ListView>
+</LinearLayout>

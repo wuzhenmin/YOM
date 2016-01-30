@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/iv_search_result_icon"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_search_result_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号"
+            android:textColor="@color/textColorBlack"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/tv_search_result_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:textColor="@color/textColorBlack"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

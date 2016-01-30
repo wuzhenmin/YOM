@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#DCDCDC</color>
+    <color name="item_not_select_grey">#F5F5F5</color>
+    <color name="white">#F8F8FF</color>
+    <color name="textColorBlack">#000000</color>
+
+    <color name="deepGrey">#A9A9A9</color>
+    <color name="btn_not_press_background">#87CEFA</color>
+    <color name="btn_press_background">#1E90FF</color>
+
+    <color name="btn_log_out_red">#FF0000</color>
+    <color name="self_page_title_green_color">#ff45c01a</color>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/iv_contact_add_friend_request"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_launcher" />
+
+    <Button
+        android:id="@+id/btn_new_friend_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_frame"
+        android:text="添加"
+        android:visibility="visible"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/iv_contact_add_friend_request"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+    <TextView
+        android:id="@+id/tv_new_friend_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="已添加"
+        android:textColor="@color/deepGrey"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_marginRight="26dp"
+        android:layout_marginEnd="26dp"
+        android:layout_below="@+id/tv_add_friend_request_nickname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv_add_friend_request_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/iv_contact_add_friend_request"
+        android:layout_toRightOf="@+id/iv_contact_add_friend_request"
+        android:text="昵称"
+        android:textColor="@color/textColorBlack"
+        android:textSize="@dimen/textSizeInMainPages" />
+
+    <TextView
+        android:id="@+id/tv_add_friend_request_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_add_friend_request_nickname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/iv_contact_add_friend_request"
+        android:text="描述"
+        android:textColor="@color/deepGrey"
+        android:textSize="15sp" />
+</RelativeLayout>

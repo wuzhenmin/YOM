@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\workplace\\customWeChat-master2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "G:\\workplace\\customWeChat-master2\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\android_workplace\\customWeChat-master2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\android_workplace\\customWeChat-master2\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\android_workplace\\YOM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\android_workplace\\YOM\\app\\src\\main\\res\\menu\\main.xml"
+    }
+]
